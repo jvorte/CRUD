@@ -11,11 +11,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
         .wrapper{
-            width: 600px;
+            width: 800px;
             margin: 0 auto;
         }
         table tr td:last-child{
-            width: 120px;
+            width: 140px;
         }
     </style>
     <script>
@@ -58,7 +58,7 @@
                                         echo "<td>" . $row['id'] . "</td>";
                                         echo "<td>" . $row['name'] . "</td>";
                                         echo "<td>" . $row['address'] . "</td>";
-                                        echo "<td>" . $row['salary'] . "</td>";
+                                        echo "<td>" . $row['salary'] . " €"."</td>";
                                         echo "<td>" . "<img style='width:80px;' src='uploads/".$row['image']."' >". "</td>";
                                         echo "<td>";
                                      
